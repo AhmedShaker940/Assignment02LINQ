@@ -16,6 +16,17 @@ namespace Assignment02LINQ
 
 
             #endregion
+            #region Question02
+
+            //show page 2 of products, with page size = 5
+            int pageNumber = 2, pageSize = 5;
+            var page = Source.ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            foreach (var p in page)
+                Console.WriteLine(p);
+
+
+            #endregion
+
 
         }
     }
