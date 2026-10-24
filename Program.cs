@@ -19,11 +19,18 @@ namespace Assignment02LINQ
             #region Question02
 
             //show page 2 of products, with page size = 5
-            int pageNumber = 2, pageSize = 5;
-            var page = Source.ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
-            foreach (var p in page)
-                Console.WriteLine(p);
+            //int pageNumber = 2, pageSize = 5;
+            //var page = Source.ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            //foreach (var p in page)
+            //    Console.WriteLine(p);
 
+
+            #endregion
+            #region Question03
+            //Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+            //var cheap = Source.ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+            //foreach (var p in cheap)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 
             #endregion
 
