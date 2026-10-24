@@ -33,6 +33,13 @@ namespace Assignment02LINQ
             //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 
             #endregion
+            #region Question04
+            //Check if ALL products in the "Seafood" category are in stock
+
+            //bool allInStock = Source.ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+            //Console.WriteLine(allInStock);
+
+            #endregion
 
 
         }
