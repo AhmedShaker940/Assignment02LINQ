@@ -40,6 +40,12 @@ namespace Assignment02LINQ
             //Console.WriteLine(allInStock);
 
             #endregion
+            #region Question05
+            //Check if the ID list contains 9
+            //int[] ids = { 3, 9, 13, 18 };
+            //Console.WriteLine(ids.Contains(9));
+
+            #endregion
 
 
         }
