@@ -89,6 +89,11 @@ namespace Assignment02LINQ
             //foreach (var x in byCountry)
             //    Console.WriteLine($"{x.Country} | Count={x.Count} | TotalOrderValue={x.TotalOrderValue}");
             #endregion
+            #region Question10
+            //Calculate the total number of units in stock across all products
+            //Console.WriteLine(Source.ProductList.Sum(p => p.UnitsInStock));
+
+            #endregion
 
         }
     }
