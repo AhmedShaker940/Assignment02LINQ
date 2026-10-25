@@ -100,6 +100,12 @@ namespace Assignment02LINQ
             //Console.WriteLine($"Most expensive: {Source.ProductList.Max(p => p.UnitPrice)}");
 
             #endregion
+            #region Question12
+            //Get a distinct list of all product categories
+            //var categories = Source.ProductList.Select(p => p.Category).Distinct();
+            //foreach (var c in categories)
+            //    Console.WriteLine(c);
+            #endregion
 
         }
     }
