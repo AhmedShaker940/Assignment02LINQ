@@ -1,5 +1,6 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
+using System.Diagnostics.Metrics;
 
 namespace Assignment02LINQ
 {
@@ -74,6 +75,19 @@ namespace Assignment02LINQ
             //foreach (var c in bigCategories)
             //    Console.WriteLine(c);
 
+            #endregion
+            #region Question09
+            //Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+            //var byCountry = from c in Source.CustomerList
+            //                group c by c.Country into g
+            //                select new
+            //                {
+            //                    Country = g.Key,
+            //                    Count = g.Count(),
+            //                    TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //                };
+            //foreach (var x in byCountry)
+            //    Console.WriteLine($"{x.Country} | Count={x.Count} | TotalOrderValue={x.TotalOrderValue}");
             #endregion
 
         }
