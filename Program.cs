@@ -129,6 +129,13 @@ namespace Assignment02LINQ
             //Console.WriteLine(dict[18]);
 
             #endregion
+            #region Question16
+            //Get the first product whose price is greater than $50. 
+
+            //Console.WriteLine(Source.ProductList.First(p => p.UnitPrice > 50));
+
+            #endregion
+
         }
     }
 }
