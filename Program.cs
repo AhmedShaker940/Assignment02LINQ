@@ -149,7 +149,12 @@ namespace Assignment02LINQ
             //    Console.WriteLine(row);
 
             #endregion
+            #region Question19
+            //Generate even numbers between 1 and 30.
+            //var evens = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+            //Console.WriteLine(string.Join(", ", evens));
 
+            #endregion
         }
     }
 }
