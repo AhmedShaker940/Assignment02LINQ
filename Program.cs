@@ -65,7 +65,16 @@ namespace Assignment02LINQ
             //        Console.WriteLine($"   {n}");
             //}
             #endregion
+            #region Question08
+            //Find all categories that have MORE THAN 3 products
+            //var bigCategories = Source.ProductList
+            //                          .GroupBy(p => p.Category)
+            //                          .Where(g => g.Count() > 3)
+            //                          .Select(g => g.Key);
+            //foreach (var c in bigCategories)
+            //    Console.WriteLine(c);
 
+            #endregion
 
         }
     }
