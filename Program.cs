@@ -53,6 +53,18 @@ namespace Assignment02LINQ
             //    Console.WriteLine($"{g.Key}: {g.Count()} products");
 
             #endregion
+            #region Question07
+            //Group products by Category and project only product names per group
+            //var namesPerCategory = Source.ProductList
+            //                             .GroupBy(p => p.Category)
+            //                             .Select(g => new { Category = g.Key, Names = g.Select(p => p.ProductName) });
+            //foreach (var g in namesPerCategory)
+            //{
+            //    Console.WriteLine(g.Category);
+            //    foreach (var n in g.Names)
+            //        Console.WriteLine($"   {n}");
+            //}
+            #endregion
 
 
         }
