@@ -164,6 +164,13 @@ namespace Assignment02LINQ
             //    Console.WriteLine(s);
 
             #endregion
+            #region Question21
+            //Pair each product with a customer (by position) and produce
+            //a string "ProductName sold to CompanyName".
+            //var sold = Source.ProductList.Zip(Source.CustomerList, (p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+            //foreach (var s in sold)
+            //    Console.WriteLine(s);
+            #endregion
         }
     }
 }
