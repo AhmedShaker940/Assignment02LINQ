@@ -135,6 +135,12 @@ namespace Assignment02LINQ
             //Console.WriteLine(Source.ProductList.First(p => p.UnitPrice > 50));
 
             #endregion
+            #region Question17
+            //Try to get the first product with a price > $500. it returns null instead of throwing. 
+            //var expensive = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(expensive is null ? "null (no product found)" : expensive.ToString());
+
+            #endregion
 
         }
     }
