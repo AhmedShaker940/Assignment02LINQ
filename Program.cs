@@ -94,6 +94,12 @@ namespace Assignment02LINQ
             //Console.WriteLine(Source.ProductList.Sum(p => p.UnitsInStock));
 
             #endregion
+            #region Question11
+            //Find the CHEAPEST and MOST EXPENSIVE product prices
+            //Console.WriteLine($"Cheapest: {Source.ProductList.Min(p => p.UnitPrice)}");
+            //Console.WriteLine($"Most expensive: {Source.ProductList.Max(p => p.UnitPrice)}");
+
+            #endregion
 
         }
     }
