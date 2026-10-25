@@ -106,7 +106,14 @@ namespace Assignment02LINQ
             //foreach (var c in categories)
             //    Console.WriteLine(c);
             #endregion
+            #region Question13
+            //find product IDs that are in setA but NOT in setB int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //foreach (var id in setA.Except(setB))
+            //    Console.WriteLine(id);
 
+            #endregion
         }
     }
 }
