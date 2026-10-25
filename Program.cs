@@ -141,6 +141,14 @@ namespace Assignment02LINQ
             //Console.WriteLine(expensive is null ? "null (no product found)" : expensive.ToString());
 
             #endregion
+            #region Question18
+            //Generate a multiplication table row for 7 
+
+            //var table = Enumerable.Range(1, 10).Select(i => $"7 x {i} = {7 * i}");
+            //foreach (var row in table)
+            //    Console.WriteLine(row);
+
+            #endregion
 
         }
     }
