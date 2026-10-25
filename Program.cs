@@ -1,6 +1,7 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
 using System.Diagnostics.Metrics;
+using System.Drawing;
 
 namespace Assignment02LINQ
 {
@@ -120,6 +121,12 @@ namespace Assignment02LINQ
             //string[] list2 = { "france", "SPAIN", "Italy" };
             //foreach (var c in list1.Except(list2, StringComparer.OrdinalIgnoreCase))
             //    Console.WriteLine(c);
+
+            #endregion
+            #region Question15
+            //Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18. 
+            //Dictionary<int, Product> dict = Source.ProductList.ToDictionary(p => p.ProductID);
+            //Console.WriteLine(dict[18]);
 
             #endregion
         }
